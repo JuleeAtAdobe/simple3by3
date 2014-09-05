@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="css/project.css" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova-3.3.0.js"></script>
 
-    <script src="js/project.js"></script>
+    <script src="js/pgapis.js"></script>
 </head>
 <body>
     <div class="main_container">
@@ -21,11 +22,14 @@
         <a href="img/braid.jpg"><div class="sm_photo" id="braid_sm"></div></a>
         <a href="img/blanket.jpg"><div class="sm_photo" id="blanket_sm"></div></a>
         <a href="img/dog.jpg"><div class="sm_photo" id="dog_sm"></div></a>
-        <a href="img/dandelion.jpg"><div class="sm_photo" id="dandelion_sm"></div></a>
         <a href="img/cow.jpg"><div class="sm_photo" id="cow_sm"></div></a>
         <a href="img/traveler.jpg"><div class="sm_photo" id="traveler_sm"></div></a>
         <a href="img/scarf.jpg"><div class="sm_photo" id="scarf_sm"></div></a>
         <a href="img/phone.jpg"><div class="sm_photo" id="phone_sm"></div></a>
+        <div class="PGCamera" onclick="capturePhoto();" id="take_photo" >
+            <p>take a photo</p>
+        
+        </div>
     </div>
 </body> 
 </html>

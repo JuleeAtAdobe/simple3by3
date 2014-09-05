@@ -1,3 +1,6 @@
+.body{
+    font-family: sans-serif;
+}
 .main_container {
     position: relative;
     left: 0px;
@@ -157,4 +160,32 @@
     width: 250px;
     height: 250px;
     z-index: 1;
+}
+
+#take_photo {
+    background-color: #545454;
+    text-align: center;
+    line-height: 150px;
+    color: #ffffff;
+    position: absolute;
+    left: 213px;
+    top: 213px;
+    width: 213px;
+    height: 213px;
+}
+#take_photo:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    left: 192px;
+    top: 200px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+#take_photo p {
+  display: inline-block;
+  vertical-align: middle;
+
 }
