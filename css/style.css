@@ -1,0 +1,160 @@
+.main_container {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 640px;
+}
+.sm_photo{
+    background-repeat: no-repeat;
+    background-size: 213px 213px;
+    width: 213px;
+    height: 213px;
+}
+
+.hover_photo{
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    width: 250px;
+    height: 250px;
+}
+
+#country_sm {
+    background-image: url("../img/country_sm.jpg");
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#braid_sm {
+    background-image: url("../img/braid_sm.jpg");
+    position: absolute;
+    left: 213px;
+    top: 0px;
+}
+#blanket_sm {
+    background-image: url("../img/blanket_sm.jpg");
+    position: absolute;
+    left: 425px;
+    top: 0px;    
+}
+#dog_sm {
+    background-image: url("../img/dog_sm.jpg");
+    position: absolute;
+    left: 0px;
+    top: 213px;
+}
+#dandelion_sm {
+    background-image: url("../img/dandelion_sm.jpg");
+    position: absolute;
+    left: 213px;
+    top: 213px;
+}
+#cow_sm {
+    background-image: url("../img/cow_sm.jpg");
+    position: absolute;
+    left: 425px;
+    top: 213px;
+}
+#traveler_sm {
+    background-image: url("../img/traveler_sm.jpg");
+    position: absolute;
+    left: 0px;
+    top: 426px;
+}
+#scarf_sm {
+    background-image: url("../img/scarf_sm.jpg");
+    position: absolute;
+    left: 213px;
+    top: 426px;
+}
+#phone_sm {
+    background-image: url("../img/phone_sm.jpg");
+    position: absolute;
+    left: 425px;
+    top: 426px;
+}
+
+#country_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#braid_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    left: 192px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#blanket_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    left: 388px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#dog_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    top: 200px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#dandelion_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    left: 192px;
+    top: 200px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#cow_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    top: 200px;
+    width: 250px;
+    height: 250px;
+    left: 388px;
+    z-index: 1;
+}
+#traveler_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    top: 388px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#scarf_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    left: 192px;
+    top: 388px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+#phone_sm:hover {
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    box-shadow: 2.5px 4.33px 10px 0px rgb( 0, 0, 0 );
+    left: 388px;
+    top: 388px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
