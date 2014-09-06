@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.juleeburdekin.simple3by3" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Simple 3 by 3</name>
+    <description>
+        A sample PhoneGap application that shows some photos and takes a photo.
+    </description>
+    <author email="julee@adobe.com" href="http://webplatform.adobe.com">
+        Julee Burdekin
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
